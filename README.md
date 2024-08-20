@@ -25,7 +25,7 @@ A web application developed using Streamlit that predicts salaries for various t
 
 ![](Salary-app.jpg)
 
-[ML App](https://canadian-tech-job-salary-prediction-and-analysis-hwi24aoawtwoi.streamlit.app/)
+[View ML App](https://canadian-tech-job-salary-prediction-and-analysis-hwi24aoawtwoi.streamlit.app/)
 
 ## Installation
 

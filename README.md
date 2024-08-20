@@ -1,6 +1,6 @@
 # Canadian Tech Industry Salary Dashboard and Prediction App
 
-This project involves the analysis and prediction of salaries in the Canadian tech industry using data from the Stack Overflow Developer Survey available on Kaggle. It includes two main components:
+This project involves the analysis and prediction of salaries in the Canadian tech industry using data from the Stack Overflow Survey available on [Kaggle](https://www.kaggle.com/datasets/moun12345/canadian-salary-data-from-stack-overflow-survey/code). It includes two main components:
 
 ## Project Components
 

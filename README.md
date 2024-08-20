@@ -14,7 +14,7 @@ This project involves the analysis and prediction of salaries in the Canadian te
     
 ![](Dashboard.png)
 
-[**View Dashboard**](URL)
+[**View Dashboard**](https://project.novypro.com/7aeO55)
 
 ### 2. Machine Learning Prediction App
 A web application developed using Streamlit that predicts salaries for various tech roles based on user inputs such as company size, industry, experience, title, and location.

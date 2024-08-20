@@ -16,7 +16,7 @@ def Predict_salary(CompanySize, Industry, Experience, Title, City): #'Company Si
     "City":[City] })
 
     prediction = model.predict(input_data)
-    return Round(prediction[0])
+    return round(prediction[0])
 
 Cities = ['Halifax', 'Montreal', 'Hamilton–Niagara Peninsula',
        'Kitchener–Waterloo–Barrie', 'Toronto',

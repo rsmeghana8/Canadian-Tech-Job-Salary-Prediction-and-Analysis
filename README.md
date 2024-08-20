@@ -60,7 +60,5 @@ To run the prediction app locally, follow these steps:
 - The estimated salary provided by the app is an approximation and is intended for informational purposes only. The underlying data may not be adequate for real-world applicability.
 - The app is designed with a focus on Canadian tech roles and may not accurately predict salaries outside of this context.
 
-## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 

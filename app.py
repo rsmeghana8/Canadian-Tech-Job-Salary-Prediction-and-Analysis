@@ -94,5 +94,5 @@ st.markdown("""
         **Disclaimer:** 
         The predictions are based on a limited dataset and may not fully represent real-world conditions""")
 
-st.image('Images\canadasky.png')  
+st.image('canadasky.png')  
 

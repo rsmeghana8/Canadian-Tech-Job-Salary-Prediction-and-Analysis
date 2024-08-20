@@ -2,22 +2,22 @@
 
 This project involves the analysis and prediction of salaries in the Canadian tech industry using data from the Stack Overflow Developer Survey available on Kaggle. It includes two main components:
 
-1. **Power BI Dashboard**: A comprehensive dashboard that provides insights into salary distributions, trends, and other key metrics within the Canadian tech industry.
-
-2. **Machine Learning Prediction App**: A web application developed using Streamlit that predicts salaries for various tech roles based on user inputs such as company size, industry, experience, title, and location.
-
 ## Project Components
 
 ### 1. Power BI Dashboard
+ A comprehensive dashboard that provides insights into salary distributions, trends, and other key metrics within the Canadian tech industry.
+ 
 - **Features**:
-  - Salary distribution across different tech roles in Canada.
+  - Salary trends across different roles in the last 5 years.
   - Insights into industry-wise salary trends.
-  - Analysis of the impact of experience and company size on salaries.
+  - Analysis of the impact of company size on salaries.
 [PowerBI Dashboard](URL)
 
 ### 2. Machine Learning Prediction App
-- **Model**: The machine learning model used in the app was trained on the same Stack Overflow survey data. The model predicts estimated salaries based on selected features.
-- **Web App**: The app allows users to input details like company size, industry, experience, job title, and location to receive a salary estimate.
+A web application developed using Streamlit that predicts salaries for various tech roles based on user inputs such as company size, industry, experience, title, and location.
+
+- **Model**: The machine learning model(CatBoost Regressor) used in the app was trained on the recent 5-year data in the dataset.
+- **Web App**: The app allows users to input details like company size, industry etc to receive a salary estimate.
 - **Deployment**: The app is deployed using Streamlit.
   [ML App](URL)
 

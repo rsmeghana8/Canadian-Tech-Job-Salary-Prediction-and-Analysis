@@ -16,7 +16,7 @@ def Predict_salary(CompanySize, Industry, Experience, Title, City): #'Company Si
     "City":[City] })
 
     prediction = model.predict(input_data)
-    return prediction[0]
+    return Round(prediction[0])
 
 Cities = ['Halifax', 'Montreal', 'Hamilton–Niagara Peninsula',
        'Kitchener–Waterloo–Barrie', 'Toronto',
@@ -85,7 +85,7 @@ City = st.selectbox('**City**',  Cities)
 if st.button('Predict Salary'):
     if CompanySize and Industry and Experience and Title and City:
         salary = Predict_salary(CompanySize, Industry, Experience, Title, City)
-        st.success(f'The predicted salary is: ${salary:,.2f}')
+        st.success(f' Estimated salary for this role is: ${salary:,.2f}')
 
     else:
         st.error('Please fill out all the fields')

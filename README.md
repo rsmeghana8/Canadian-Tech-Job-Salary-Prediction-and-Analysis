@@ -12,14 +12,14 @@ This project involves the analysis and prediction of salaries in the Canadian te
   - Insights into industry-wise salary trends.
   - Analysis of the impact of company size on salaries.
 [PowerBI Dashboard](URL)
-
+![Dashboard Screenshot]
 ### 2. Machine Learning Prediction App
 A web application developed using Streamlit that predicts salaries for various tech roles based on user inputs such as company size, industry, experience, title, and location.
 
 - **Model**: The machine learning model(CatBoost Regressor) used in the app was trained on the recent 5-year data in the dataset.
 - **Web App**: The app allows users to input details like company size, industry etc to receive a salary estimate.
 - **Deployment**: The app is deployed using Streamlit.
-  [ML App](URL)
+  [ML App]([URL](https://canadian-tech-job-salary-prediction-and-analysis-hwi24aoawtwoi.streamlit.app/))
 
 ## Installation
 

@@ -85,7 +85,7 @@ City = st.selectbox('**City**',  Cities)
 if st.button('Predict Salary'):
     if CompanySize and Industry and Experience and Title and City:
         salary = Predict_salary(CompanySize, Industry, Experience, Title, City)
-        st.success(f' Estimated salary for this role is: ${salary:,}')
+        st.success(f' Estimated annual salary for this role is: ${salary:,}')
 
     else:
         st.error('Please fill out all the fields')

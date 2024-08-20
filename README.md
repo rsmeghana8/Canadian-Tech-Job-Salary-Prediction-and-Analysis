@@ -11,8 +11,8 @@ This project involves the analysis and prediction of salaries in the Canadian te
   - Salary trends across different roles in the last 5 years.
   - Insights into industry-wise salary trends.
   - Analysis of the impact of company size on salaries.
-[PowerBI Dashboard](URL)
-![Dashboard Screenshot]
+[View Dashboard](URL)
+![](Dashboard.png)
 ### 2. Machine Learning Prediction App
 A web application developed using Streamlit that predicts salaries for various tech roles based on user inputs such as company size, industry, experience, title, and location.
 
